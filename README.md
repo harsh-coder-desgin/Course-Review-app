@@ -70,3 +70,16 @@ This is the **backend server** for a full-featured **Course Review Web App** sup
 - Clicking a tag filters all courses and reviews related to that topic
 
 ---
+
+## 🧑‍💻 Author
+
+Made by [Harsh Patel](https://github.com/harsh-coder-desgin)
+
+📫 Reach me on [LinkedIn](https://www.linkedin.com/in/harsh-patel-2b3405303/)  
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+EOF
