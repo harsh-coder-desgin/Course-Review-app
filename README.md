@@ -1,85 +1,108 @@
-# 🎓 Course Review & Management Backend
+# 🎓 Course Review & Management Web App (MERN)
 
-This is the **backend server** for a full-featured **Course Review Web App** supporting creators and users. Built with the **MERN stack**, it includes secure authentication, dynamic course/review APIs, advanced search, and Cloudinary-based image uploads.
+A full-stack **Course Review & Management Web App** built using the **MERN stack**, designed for **course creators** to manage and track their courses, reviews, and overall performance.  
+The platform includes a powerful Creator Dashboard with analytics, charts, and course management features.
 
-## 🧰 Backend Tech Stack
+---
 
-- Runtime:             Node.js
-- Server Framework:    Express.js
-- Database:            MongoDB (with Mongoose)
-- Authentication:      JWT (Access + Refresh Tokens)
-- Email Service:       Resend
-- File Upload:         Cloudinary
-- Search:              MongoDB Atlas Full-Text Search
-- Utilities:           bcrypt, cookie-parser
+## 🧰 Tech Stack
 
+### Backend
+- **Runtime:** Node.js  
+- **Framework:** Express.js  
+- **Database:** MongoDB (Mongoose)  
+- **Authentication:** JWT (Access + Refresh Tokens)  
+- **Email Verification:** Resend  
+- **File Uploads:** Cloudinary  
+- **Search:** MongoDB Atlas Full-Text Search  
+
+### Frontend
+- **Library:** React.js  
+- **Styling:** Tailwind CSS  
+- **State Management:** Context API / Redux (if used)  
+- **Routing:** React Router  
+- **API Calls:** Axios  
 
 ---
 
 ## 🚀 Features Overview
 
 ### 👨‍🏫 Creator Dashboard
-- 🔐 Creator Sign-Up & Login (with Email Verification)
-- 🔄 Access & Refresh Token System
-- 🧾 Creator Overview Page:Total Courses,Total Reviews,New Reviews,Average Rating
-- 🖊️ Edit Profile :(**email non-editable**)
-- 📚 Manage Courses:
-  - Add / Edit / Delete Course
-  - Fields: Name, Description, Cover Image, Free/Paid, Duration, Year, YouTube Link, What You'll Learn, Tags,description
-  - Images uploaded to Cloudinary
-- 📥 Course Reviews:
-  - View latest reviews
-  - View course-specific review breakdowns (5★–1★)
-  - Reply to user comments (Only reply; cannot like, upvote/downvote)
+
+A complete management panel for course creators to monitor, create, and update their content.
+
+#### 🧾 Dashboard Page
+- Displays **3 Overview Cards**:
+  - Total **Courses**
+  - Total **Followers**
+  - Total **Reviews**
+- **Recent Reviews Section**  
+  - Shows the latest reviews  
+  - Includes a **dropdown filter**: Today / Week / Month  
+- **Overall Rating Chart**
+  - Displays ⭐1–⭐5 star rating distribution  
+  - Includes a **dropdown filter**: Year / Month / Week  
+- **Performance Charts**
+  - **Monthly Reviews Chart** – visualizes reviews by month  
+  - **Latest Course Rating Chart** – compares ratings of recent courses  
+
+---
+
+#### 📚 Create New Course
+Course creation is divided into **4 structured tabs**, allowing creators to fill in data step by step before publishing.
+
+Each course includes:
+- Title  
+- Description  
+- Category / Tags  
+- Free or Paid option  
+- Duration & Year  
+- Cover Image (uploaded to Cloudinary)  
+- **What You Will Teach in This Course** — add chapters and lessons in a structured format  
+- “What You’ll Learn” section  
+
+---
+
+#### 📂 My Courses
+- View all published courses in one place  
+- Filter courses by **category**, **tags**, or **status**  
+- Each course includes quick actions:
+  - **View Details**
+  - **Edit Course**
+  - **Delete Course**
+
+---
+
+#### ⚙️ Settings
+- Edit profile details (name, bio, profile image)  
+- Add social media links  
+- Change password securely  
+
+---
+
+#### 🚪 Sign Out
+- Log out instantly from the dashboard with session cleared  
 
 ---
 
 ### 🙋‍♂️ User Dashboard
-- 🔐 User Sign-Up & Login (with Email Verification)
-- 🔄 Access & Refresh Token System
-- 🏠 Home Page:
-  - Search creators and courses using **MongoDB Atlas Full-Text Search**
-  - View top-rated creators
-  - See latest reviews and new courses
-  - Filter by **Free/Paid** and by **Tags** (e.g., Python, JavaScript)
-- 📄 Course Pages:
-  - Full course details
-  - Total rating & user reviews
-  - Related courses suggestions
-- 🧾 Creator Pages:
-  - List of all their courses
-  - All reviews about the creator
-  - All creator courses
-
----
-
-### ✍️ Reviews & Comments System
-
-#### ✅ User Capabilities
-- Add a review with star rating (1–5)
-- Like reviews
-- Upvote / Downvote reviews
-- Comment on reviews
-
-#### 💬 Commenting System
-- Nested replies
-- Edit / Delete / Like / Report comments and reply
-
-#### 🎯 Tags Filtering
-- All courses include `tags` like: `python`, `c++`
-- Clicking a tag filters all courses and reviews related to that topic
+> 🚧 *Currently in progress*  
+Upcoming features include:
+- Explore courses  
+- View creator profiles  
+- Add course reviews & ratings  
+- Search and filter by tags or course type  
 
 ---
 
 ## 🧑‍💻 Author
 
-Made by [Harsh Patel](https://github.com/harsh-coder-desgin)
+Developed by [Harsh Patel](https://github.com/harsh-coder-desgin)
 
-📫 Reach me on [LinkedIn](https://www.linkedin.com/in/harsh-patel-2b3405303/)  
+📫 Connect on [LinkedIn](https://www.linkedin.com/in/harsh-patel-2b3405303/)
 
 ---
 
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
-EOF
