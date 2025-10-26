@@ -1,0 +1,251 @@
+/* modfily left ,right,height and width and image myelemt1 and 2 name adjust it */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+ 
+
+ select option {
+  background-color: #f9f9f9; /* Tailwind's bg-gray-200 */
+ }
+ 
+.my-active{
+   background-image: url("/dashboardactivelogo.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+  background-size: 36px 37px;
+  background-position: 10px 1px;
+  /* width: auto; */
+  /* height: ; */
+  /* left: 10px; */
+}
+.my-active2{
+   background-image: url("/Screenshot 2025-10-01 175701.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+  background-size: 33px 27px;
+  background-position: 10px 6px;
+  /* width: auto; */
+  /* height: ; */
+  /* left: 10px; */
+}
+.my-active3{
+   background-image: url("/Screenshot 2025-10-01 175727.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+  background-size: 32px 29px;
+  background-position: 9px 6px;
+  /* width: auto; */
+  /* height: ; */
+  /* left: 10px; */
+}
+
+.my-active4{
+   background-image: url("/Screenshot 2025-10-01 175711.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+  background-size: 32px 25px;
+  background-position: 11px 7px;
+  /* width: auto; */
+  /* height: ; */
+  /* left: 10px; */
+}
+
+
+.my-active5{
+  background-image: url("/Screenshot 2025-10-02 191352.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+  background-size: 25px 21px;
+  background-position: 13px 10px;
+  /* width: auto; */
+  /* height: ; */
+  /* left: 10px; */
+}
+
+
+
+
+.my-element {
+  position: relative; /* Required for absolute positioning of ::before */
+ }
+.my-element::before {
+   content: "";
+  position: absolute;
+  top: 5px;           /* adjust as needed */
+  left: 12px;         /* adjust as needed */
+  width: 32px;        /* image width */
+  height: 31px;       /* image height */
+  background-image: url("/dashbordlogo.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+.my-element:hover::before {
+  content: "";
+  position: absolute;
+  top: 0px;           /* adjust as needed */
+  left: 10px;         /* adjust as needed */
+  width: 36px;        /* image width */
+  height: 39px;       /* image height */
+  background-image: url("/dashboardactivelogo.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+
+/* second elemet */
+
+ .my-element2 {
+  position: relative; /* Required for absolute positioning of ::before */
+ }
+.my-element2::before {
+   content: "";
+  position: absolute;
+  top: 5px;           /* adjust as needed */
+  left: 12px;         /* adjust as needed */
+  width: 32px;        /* image width */
+  height: 31px;       /* image height */
+  background-image: url("/createcourse.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+
+}
+.my-element2:hover::before {
+  content: "";
+  position: absolute;
+  top: 6px;           /* adjust as needed */
+  left: 10px;         /* adjust as needed */
+  width: 34px;        /* image width */
+  height: 39px;       /* image height */
+  background-image: url("/Screenshot 2025-10-01 175701.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+
+
+/* third elemet */
+
+ .my-element3 {
+  position: relative; /* Required for absolute positioning of ::before */
+ }
+.my-element3::before {
+   content: "";
+  position: absolute;
+  top: 6px;           /* adjust as needed */
+  left: 10px;         /* adjust as needed */
+  width: 29px;        /* image width */
+  height: 29px;       /* image height */
+  background-image: url("/allcourselogo.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+
+}
+.my-element3:hover::before {
+  content: "";
+  position: absolute;
+  top: 6px;           /* adjust as needed */
+  left: 9px;         /* adjust as needed */
+  width: 32px;        /* image width */
+  height: 32px;       /* image height */
+  background-image: url("/Screenshot 2025-10-01 175727.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+
+
+/* fourth elemet */
+
+ .my-element4 {
+  position: relative; /* Required for absolute positioning of ::before */
+ }
+.my-element4::before {
+   content: "";
+  position: absolute;
+  top: 5px;           /* adjust as needed */
+  left: 9px;         /* adjust as needed */
+  width: 29px;        /* image width */
+  height: 29px;       /* image height */
+  background-image: url("/setting.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+
+}
+.my-element4:hover::before {
+  content: "";
+  position: absolute;
+  top: 7px;           /* adjust as needed */
+  left: 11px;         /* adjust as needed */
+  width: 32px;        /* image width */
+  height: 32px;       /* image height */
+  background-image: url("/Screenshot 2025-10-01 175711.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+
+
+/* fith elemet */
+/*  */
+ .my-element5 {
+  position: relative; /* Required for absolute positioning of ::before */
+ }
+.my-element5::before {
+   content: "";
+  position: absolute;
+  top: 8px;           /* adjust as needed */
+  left: 11px;         /* adjust as needed */
+  width: 30px;        /* image width */
+  height: 30px;       /* image height */
+  background-image: url("/signout.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+
+}
+.my-element5:hover::before {
+  content: "";
+  position: absolute;
+  top: 10px;           /* adjust as needed */
+  left: 13px;         /* adjust as needed */
+  width: 24px;        /* image width */
+  height: 24px;       /* image height */
+  background-image: url("/Screenshot 2025-10-02 191352.png");
+  background-size: contain; /* fit image within the box */
+  background-repeat: no-repeat;
+}
+
+
+
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-20%);
+  }
+}
+
+.animate-scroll-reverse {
+
+  animation: scroll-reverse 15s linear infinite alternate;
+  /* `alternate` = back & forth */
+}
+
+@keyframes scroll-reviews {
+  0% {
+    transform: translateX(-2000px);
+    /* start at initial position */
+  }
+
+  100% {
+    transform: translateX(0);
+    /* move right by desired px */
+  }
+}
+
+.animate-scroll-reviews {
+  display: flex;
+  animation: scroll-reviews 50s linear infinite alternate;
+}
+
+
+@import "tailwindcss";
